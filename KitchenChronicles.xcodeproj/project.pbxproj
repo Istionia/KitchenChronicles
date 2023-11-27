@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A1C214D42B14EC7700644655 /* KitchenChroniclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C214D32B14EC7700644655 /* KitchenChroniclesApp.swift */; };
-		A1C214D62B14EC7700644655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C214D52B14EC7700644655 /* ContentView.swift */; };
+		A1C214D62B14EC7700644655 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C214D52B14EC7700644655 /* HomeView.swift */; };
 		A1C214D82B14EC8100644655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C214D72B14EC8100644655 /* Assets.xcassets */; };
 		A1C214DB2B14EC8100644655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C214DA2B14EC8100644655 /* Preview Assets.xcassets */; };
 		A1C214E52B14EC8300644655 /* KitchenChroniclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C214E42B14EC8300644655 /* KitchenChroniclesTests.swift */; };
 		A1C214EF2B14EC8300644655 /* KitchenChroniclesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C214EE2B14EC8300644655 /* KitchenChroniclesUITests.swift */; };
 		A1C214F12B14EC8300644655 /* KitchenChroniclesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C214F02B14EC8300644655 /* KitchenChroniclesUITestsLaunchTests.swift */; };
+		A1C214FF2B14ED3900644655 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C214FE2B14ED3900644655 /* RecipeListView.swift */; };
+		A1C215012B14ED4600644655 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C215002B14ED4600644655 /* RecipeDetailView.swift */; };
+		A1C215052B14ED6C00644655 /* RecipeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C215042B14ED6C00644655 /* RecipeEditorView.swift */; };
+		A1C215082B14ED7D00644655 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1C215062B14ED7D00644655 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		A1C214D02B14EC7700644655 /* KitchenChronicles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenChronicles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C214D32B14EC7700644655 /* KitchenChroniclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenChroniclesApp.swift; sourceTree = "<group>"; };
-		A1C214D52B14EC7700644655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1C214D52B14EC7700644655 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A1C214D72B14EC8100644655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1C214DA2B14EC8100644655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1C214E02B14EC8300644655 /* KitchenChroniclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitchenChroniclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,11 @@
 		A1C214EA2B14EC8300644655 /* KitchenChroniclesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitchenChroniclesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C214EE2B14EC8300644655 /* KitchenChroniclesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenChroniclesUITests.swift; sourceTree = "<group>"; };
 		A1C214F02B14EC8300644655 /* KitchenChroniclesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenChroniclesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1C214FD2B14ECB700644655 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A1C214FE2B14ED3900644655 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		A1C215002B14ED4600644655 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		A1C215042B14ED6C00644655 /* RecipeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeEditorView.swift; sourceTree = "<group>"; };
+		A1C215072B14ED7D00644655 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,7 @@
 		A1C214C72B14EC7700644655 = {
 			isa = PBXGroup;
 			children = (
+				A1C214FD2B14ECB700644655 /* README.md */,
 				A1C214D22B14EC7700644655 /* KitchenChronicles */,
 				A1C214E32B14EC8300644655 /* KitchenChroniclesTests */,
 				A1C214ED2B14EC8300644655 /* KitchenChroniclesUITests */,
@@ -95,7 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				A1C214D32B14EC7700644655 /* KitchenChroniclesApp.swift */,
-				A1C214D52B14EC7700644655 /* ContentView.swift */,
+				A1C214D52B14EC7700644655 /* HomeView.swift */,
+				A1C214FE2B14ED3900644655 /* RecipeListView.swift */,
+				A1C215002B14ED4600644655 /* RecipeDetailView.swift */,
+				A1C215042B14ED6C00644655 /* RecipeEditorView.swift */,
+				A1C215062B14ED7D00644655 /* Model.xcdatamodeld */,
 				A1C214D72B14EC8100644655 /* Assets.xcassets */,
 				A1C214D92B14EC8100644655 /* Preview Content */,
 			);
@@ -257,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C214D62B14EC7700644655 /* ContentView.swift in Sources */,
+				A1C215052B14ED6C00644655 /* RecipeEditorView.swift in Sources */,
+				A1C214FF2B14ED3900644655 /* RecipeListView.swift in Sources */,
+				A1C214D62B14EC7700644655 /* HomeView.swift in Sources */,
 				A1C214D42B14EC7700644655 /* KitchenChroniclesApp.swift in Sources */,
+				A1C215012B14ED4600644655 /* RecipeDetailView.swift in Sources */,
+				A1C215082B14ED7D00644655 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +606,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1C215062B14ED7D00644655 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1C215072B14ED7D00644655 /* Model.xcdatamodel */,
+			);
+			currentVersion = A1C215072B14ED7D00644655 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A1C214C82B14EC7700644655 /* Project object */;
 }
