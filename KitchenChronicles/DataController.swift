@@ -133,6 +133,7 @@ enum Cuisines: String, CaseIterable {
             return "Korean Cuisine"
         case .colombian:
             return "Colombian Cuisine"
+        }
     }
 }
 
