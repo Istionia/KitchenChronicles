@@ -86,7 +86,7 @@ Free and premium versions of the app, with the latter offering additional featur
 # Installation
 Kitchen Chronicles is exclusively available on the Apple App Store for iOS devices. You can download it using the following link:
 
-Download MyCookbook
+Download Kitchen Chronicles
 
 # Getting Started
 Once you've installed the app, start by creating your personal cookbook. Add your favorite recipes, organize them into categories, and plan your meals. Use the cooking timer for precision in your culinary adventures. Share your creations with friends and discover new recipes from the MyCookbook community.

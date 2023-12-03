@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct KitchenChroniclesApp: App {
+    @StateObject var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
             HomeView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
+                .environmentObject(dataController)
         }
     }
 }
