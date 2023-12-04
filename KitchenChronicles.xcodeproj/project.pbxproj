@@ -44,6 +44,7 @@
 		A16DAC442B1CA4B50082F657 /* KitchenChronicles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KitchenChronicles.entitlements; sourceTree = "<group>"; };
 		A16DAC452B1CA4CB0082F657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A16DAC4C2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		A16DAC4E2B1DB2670082F657 /* KitchenChronicles.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = KitchenChronicles.xctestplan; sourceTree = "<group>"; };
 		A1C214D02B14EC7700644655 /* KitchenChronicles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenChronicles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C214D32B14EC7700644655 /* KitchenChroniclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenChroniclesApp.swift; sourceTree = "<group>"; };
 		A1C214D52B14EC7700644655 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -137,6 +138,7 @@
 		A1C214E32B14EC8300644655 /* KitchenChroniclesTests */ = {
 			isa = PBXGroup;
 			children = (
+				A16DAC4E2B1DB2670082F657 /* KitchenChronicles.xctestplan */,
 				A1C214E42B14EC8300644655 /* KitchenChroniclesTests.swift */,
 			);
 			path = KitchenChroniclesTests;
