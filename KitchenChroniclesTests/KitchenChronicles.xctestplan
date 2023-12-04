@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "E44EBD80-A470-49BF-8560-0EC5CCBD057D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:KitchenChronicles.xcodeproj",
+      "identifier" : "A1C214CF2B14EC7700644655",
+      "name" : "KitchenChronicles"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:KitchenChronicles.xcodeproj",
+        "identifier" : "A1C214DF2B14EC8300644655",
+        "name" : "KitchenChroniclesTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:KitchenChronicles.xcodeproj",
+        "identifier" : "A1C214E92B14EC8300644655",
+        "name" : "KitchenChroniclesUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
