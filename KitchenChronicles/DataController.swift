@@ -28,8 +28,6 @@ enum Meals: String, CaseIterable {
             return "Snacks"
         case .dessert:
             return "Desserts"
-        default:
-            return ""
         }
     }
 }
@@ -57,8 +55,6 @@ enum DietPreferences: String, CaseIterable {
             return "Dairy Free"
         case .lowCarb:
             return "Low Carb"
-        default:
-            return ""
         }
     }
 }
@@ -158,8 +154,6 @@ enum Occasions: String, CaseIterable {
             return "Dia de Los Muertos"
         case .oktoberfest:
             return "Oktoberfest"
-        default:
-            return ""
         }
     }
 }
@@ -177,8 +171,6 @@ enum ServingSizes: String, CaseIterable {
             return "Large (4-6 servings)"
         case .family:
             return "Family Size (6+ servings)"
-        default:
-            return ""
         }
     }
 }
@@ -211,7 +203,7 @@ class DataController: ObservableObject {
         
         let recipe = Recipe(context: viewContext)
         recipe.id = UUID()
-        recipe.name = "Kung Po King Prawns"
+        recipe.name = "Cantonese Poached Chicken (Bai Qie Ji)"
         recipe.ingredients
         recipe.instructions
         recipe.entryDate = .now

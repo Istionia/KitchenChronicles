@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A16DAC3F2B1C74240082F657 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DAC3E2B1C74240082F657 /* Ingredient.swift */; };
-		A16DAC412B1C74340082F657 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DAC402B1C74340082F657 /* Instruction.swift */; };
 		A16DAC432B1C75C80082F657 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DAC422B1C75C80082F657 /* DataController.swift */; };
+		A16DAC4D2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DAC4C2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift */; };
 		A1C214D42B14EC7700644655 /* KitchenChroniclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C214D32B14EC7700644655 /* KitchenChroniclesApp.swift */; };
 		A1C214D62B14EC7700644655 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C214D52B14EC7700644655 /* HomeView.swift */; };
 		A1C214D82B14EC8100644655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C214D72B14EC8100644655 /* Assets.xcassets */; };
@@ -41,11 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A16DAC3E2B1C74240082F657 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
-		A16DAC402B1C74340082F657 /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
 		A16DAC422B1C75C80082F657 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		A16DAC442B1CA4B50082F657 /* KitchenChronicles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KitchenChronicles.entitlements; sourceTree = "<group>"; };
 		A16DAC452B1CA4CB0082F657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A16DAC4C2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		A1C214D02B14EC7700644655 /* KitchenChronicles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenChronicles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C214D32B14EC7700644655 /* KitchenChroniclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenChroniclesApp.swift; sourceTree = "<group>"; };
 		A1C214D52B14EC7700644655 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -119,10 +117,9 @@
 				A1C214FE2B14ED3900644655 /* RecipeListView.swift */,
 				A1C215002B14ED4600644655 /* RecipeDetailView.swift */,
 				A1C215042B14ED6C00644655 /* RecipeEditorView.swift */,
-				A16DAC3E2B1C74240082F657 /* Ingredient.swift */,
 				A16DAC422B1C75C80082F657 /* DataController.swift */,
-				A16DAC402B1C74340082F657 /* Instruction.swift */,
 				A1C215062B14ED7D00644655 /* Model.xcdatamodeld */,
+				A16DAC4C2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift */,
 				A1C214D72B14EC8100644655 /* Assets.xcassets */,
 				A1C214D92B14EC8100644655 /* Preview Content */,
 			);
@@ -286,12 +283,11 @@
 			files = (
 				A1C215052B14ED6C00644655 /* RecipeEditorView.swift in Sources */,
 				A1C214FF2B14ED3900644655 /* RecipeListView.swift in Sources */,
-				A16DAC3F2B1C74240082F657 /* Ingredient.swift in Sources */,
 				A1C214D62B14EC7700644655 /* HomeView.swift in Sources */,
 				A16DAC432B1C75C80082F657 /* DataController.swift in Sources */,
 				A1C214D42B14EC7700644655 /* KitchenChroniclesApp.swift in Sources */,
 				A1C215012B14ED4600644655 /* RecipeDetailView.swift in Sources */,
-				A16DAC412B1C74340082F657 /* Instruction.swift in Sources */,
+				A16DAC4D2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift in Sources */,
 				A1C215082B14ED7D00644655 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
