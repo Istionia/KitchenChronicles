@@ -13,7 +13,8 @@ struct HomeView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("You have no recipes right now. Head over to the Recipe Editor to start bringing them in!")
+                .font(.custom("Montserrat-Regular", size: 30))
         }
         .padding()
     }

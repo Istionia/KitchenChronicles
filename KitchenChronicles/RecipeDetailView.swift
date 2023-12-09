@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct RecipeDetailView: View {
+    @StateObject var dataController: DataController
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Recipe Details")
     }
 }
 
 #Preview {
-    RecipeDetailView()
+    RecipeDetailView(dataController: .preview)
 }

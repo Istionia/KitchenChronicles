@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct RecipeListView: View {
+    @StateObject var dataController: DataController
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(recipes) { recipe in
+                    Text(recipe.name)
+                }
+            }
+        }
+        .navigationTitle("Recipes")
     }
 }
 
+
 #Preview {
-    RecipeListView()
+    RecipeListView(dataController: .preview)
 }

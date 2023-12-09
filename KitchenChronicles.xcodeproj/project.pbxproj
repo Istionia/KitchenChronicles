@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1242DED2B24F21E000B19CA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1242DEC2B24F21E000B19CA /* Color.swift */; };
+		A1242DEF2B24F2BA000B19CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1242DEE2B24F2BA000B19CA /* Constants.swift */; };
+		A1242DF12B24F2E3000B19CA /* UserDefaultsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1242DF02B24F2E3000B19CA /* UserDefaultsUtils.swift */; };
 		A16DAC432B1C75C80082F657 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DAC422B1C75C80082F657 /* DataController.swift */; };
 		A16DAC4D2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DAC4C2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift */; };
 		A16DAC502B1DB3580082F657 /* Ingredient-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DAC4F2B1DB3570082F657 /* Ingredient-CoreDataHelpers.swift */; };
@@ -42,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1242DEA2B24D619000B19CA /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Regular.ttf"; sourceTree = "<group>"; };
+		A1242DEB2B24D61C000B19CA /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		A1242DEC2B24F21E000B19CA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A1242DEE2B24F2BA000B19CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A1242DF02B24F2E3000B19CA /* UserDefaultsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtils.swift; sourceTree = "<group>"; };
 		A16DAC422B1C75C80082F657 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		A16DAC442B1CA4B50082F657 /* KitchenChronicles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KitchenChronicles.entitlements; sourceTree = "<group>"; };
 		A16DAC452B1CA4CB0082F657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +99,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1242DE92B24D610000B19CA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A1242DEB2B24D61C000B19CA /* Montserrat-Regular.ttf */,
+				A1242DEA2B24D619000B19CA /* Lora-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A1242DF22B24F30B000B19CA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A1242DEE2B24F2BA000B19CA /* Constants.swift */,
+				A1242DF02B24F2E3000B19CA /* UserDefaultsUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A1242DF32B24F5C7000B19CA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A16DAC4C2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift */,
+				A16DAC4F2B1DB3570082F657 /* Ingredient-CoreDataHelpers.swift */,
+				A16DAC512B1DB3660082F657 /* Instruction-CoreDataHelpers.swift */,
+				A1242DEC2B24F21E000B19CA /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A1C214C72B14EC7700644655 = {
 			isa = PBXGroup;
 			children = (
@@ -124,10 +161,10 @@
 				A1C215042B14ED6C00644655 /* RecipeEditorView.swift */,
 				A16DAC422B1C75C80082F657 /* DataController.swift */,
 				A1C215062B14ED7D00644655 /* Model.xcdatamodeld */,
-				A16DAC4C2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift */,
-				A16DAC4F2B1DB3570082F657 /* Ingredient-CoreDataHelpers.swift */,
-				A16DAC512B1DB3660082F657 /* Instruction-CoreDataHelpers.swift */,
+				A1242DF32B24F5C7000B19CA /* Extensions */,
 				A1C214D72B14EC8100644655 /* Assets.xcassets */,
+				A1242DF22B24F30B000B19CA /* Utilities */,
+				A1242DE92B24D610000B19CA /* Fonts */,
 				A1C214D92B14EC8100644655 /* Preview Content */,
 			);
 			path = KitchenChronicles;
@@ -293,9 +330,12 @@
 				A16DAC502B1DB3580082F657 /* Ingredient-CoreDataHelpers.swift in Sources */,
 				A1C214FF2B14ED3900644655 /* RecipeListView.swift in Sources */,
 				A16DAC522B1DB3660082F657 /* Instruction-CoreDataHelpers.swift in Sources */,
+				A1242DEF2B24F2BA000B19CA /* Constants.swift in Sources */,
 				A1C214D62B14EC7700644655 /* HomeView.swift in Sources */,
 				A16DAC432B1C75C80082F657 /* DataController.swift in Sources */,
 				A1C214D42B14EC7700644655 /* KitchenChroniclesApp.swift in Sources */,
+				A1242DF12B24F2E3000B19CA /* UserDefaultsUtils.swift in Sources */,
+				A1242DED2B24F21E000B19CA /* Color.swift in Sources */,
 				A1C215012B14ED4600644655 /* RecipeDetailView.swift in Sources */,
 				A16DAC4D2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift in Sources */,
 				A1C215082B14ED7D00644655 /* Model.xcdatamodeld in Sources */,
