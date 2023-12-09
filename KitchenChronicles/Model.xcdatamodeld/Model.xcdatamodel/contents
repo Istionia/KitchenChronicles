@@ -18,6 +18,7 @@
         <attribute name="foodAllergies" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="meal" optional="YES" attributeType="String"/>
+        <attribute name="modificationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="occasion" optional="YES" attributeType="String"/>
         <attribute name="prepTime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
