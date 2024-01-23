@@ -13,7 +13,7 @@ struct KitchenChroniclesApp: App {
     
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            RecipeListView(dataController: .preview)
                 .environment(\.managedObjectContext, dataController.container.viewContext)
                 .environmentObject(dataController)
         }

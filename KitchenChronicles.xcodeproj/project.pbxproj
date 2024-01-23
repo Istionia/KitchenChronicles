@@ -10,6 +10,7 @@
 		A1242DED2B24F21E000B19CA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1242DEC2B24F21E000B19CA /* Color.swift */; };
 		A1242DEF2B24F2BA000B19CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1242DEE2B24F2BA000B19CA /* Constants.swift */; };
 		A1242DF12B24F2E3000B19CA /* UserDefaultsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1242DF02B24F2E3000B19CA /* UserDefaultsUtils.swift */; };
+		A1242DF52B24FB20000B19CA /* DevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1242DF42B24FB20000B19CA /* DevelopmentTests.swift */; };
 		A16DAC432B1C75C80082F657 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DAC422B1C75C80082F657 /* DataController.swift */; };
 		A16DAC4D2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DAC4C2B1DA9670082F657 /* Recipe-CoreDataHelpers.swift */; };
 		A16DAC502B1DB3580082F657 /* Ingredient-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DAC4F2B1DB3570082F657 /* Ingredient-CoreDataHelpers.swift */; };
@@ -50,6 +51,7 @@
 		A1242DEC2B24F21E000B19CA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		A1242DEE2B24F2BA000B19CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A1242DF02B24F2E3000B19CA /* UserDefaultsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtils.swift; sourceTree = "<group>"; };
+		A1242DF42B24FB20000B19CA /* DevelopmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentTests.swift; sourceTree = "<group>"; };
 		A16DAC422B1C75C80082F657 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		A16DAC442B1CA4B50082F657 /* KitchenChronicles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KitchenChronicles.entitlements; sourceTree = "<group>"; };
 		A16DAC452B1CA4CB0082F657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			children = (
 				A16DAC4E2B1DB2670082F657 /* KitchenChronicles.xctestplan */,
 				A1C214E42B14EC8300644655 /* KitchenChroniclesTests.swift */,
+				A1242DF42B24FB20000B19CA /* DevelopmentTests.swift */,
 			);
 			path = KitchenChroniclesTests;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1C214E52B14EC8300644655 /* KitchenChroniclesTests.swift in Sources */,
+				A1242DF52B24FB20000B19CA /* DevelopmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

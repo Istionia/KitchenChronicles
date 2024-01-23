@@ -12,7 +12,7 @@ extension Ingredient {
         get { name ?? "" }
     }
     
-    var ingredientAmount: Int16 {
-        numberOf
+    var ingredientQuantity: Int16 {
+        get { quantity ?? 0 }
     }
 }

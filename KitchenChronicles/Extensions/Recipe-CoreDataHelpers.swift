@@ -8,6 +8,14 @@
 import Foundation
 
 extension Recipe {
+    var ingredientsArray: [Ingredient] {
+        ingredients?.allObjects as? [Ingredient] ?? []
+    }
+    
+    var instructionsArray: [Instruction] {
+        instructions?.allObjects as? [Instruction] ?? []
+    }
+    
     var recipeName: String {
         get { name ?? "" }
         set { name = newValue }

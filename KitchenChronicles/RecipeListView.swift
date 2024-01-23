@@ -13,9 +13,12 @@ struct RecipeListView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(recipes) { recipe in
-                    Text(recipe.name)
+                ForEach(dataController.fetchRecipes()) { recipe in
+                    Text(recipe.name ?? "Unknown Recipe")
                 }
+            }
+            .onAppear {
+                _ = dataController.fetchRecipes()
             }
         }
         .navigationTitle("Recipes")

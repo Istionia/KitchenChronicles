@@ -202,6 +202,23 @@ class DataController: ObservableObject {
         return dataController
     }()
     
+    /// Fetches all recipes from the Core Data persistent store.
+    ///
+    /// - Returns: An array of `Recipe` entities.
+    ///
+    /// - Note: In case of an error, an empty array is returned, and an error message is printed to the console.
+    func fetchRecipes() -> [Recipe] {
+        let request: NSFetchRequest<Recipe> = Recipe.fetchRequest()
+
+        do {
+            let recipes = try container.viewContext.fetch(request)
+            return recipes
+        } catch {
+            print("Error fetching recipes. Please try again later or check your internet connection.")
+            return []
+        }
+    }
+    
     func createSampleData() {
         let viewContext = container.viewContext
         
